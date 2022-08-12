@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_listas",
+  "info": {
+    "displayName": "Lista",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_lista_z_naglowkiems",
+  "info": {
+    "displayName": "Lista z nagłówkiem",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.lista",
+      "required": true
+    }
+  }
+}

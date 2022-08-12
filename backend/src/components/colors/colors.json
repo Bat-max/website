@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_colors_colors",
+  "info": {
+    "displayName": "colors",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "lead": {
+      "type": "string"
+    }
+  }
+}

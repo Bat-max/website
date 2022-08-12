@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_footer_infos",
+  "info": {
+    "displayName": "Footer info",
+    "icon": "backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "phone"
+      ]
+    },
+    "contentSecond": {
+      "type": "string"
+    },
+    "break": {
+      "type": "boolean"
+    }
+  }
+}

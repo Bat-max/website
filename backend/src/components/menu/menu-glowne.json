@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_menu_menu_glownes",
+  "info": {
+    "displayName": "Menu główne",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nav_1": {
+      "type": "string",
+      "required": true,
+      "default": "Home"
+    },
+    "nav_2": {
+      "type": "string",
+      "required": true,
+      "default": "Podłoże pod garaż"
+    },
+    "nav_3": {
+      "type": "string",
+      "required": true,
+      "default": "Kolory blach"
+    },
+    "nav_4": {
+      "type": "string",
+      "required": true,
+      "default": "Oferta"
+    },
+    "nav_5": {
+      "type": "string",
+      "required": true,
+      "default": "Dostawa i montaż"
+    },
+    "nav_6": {
+      "type": "string",
+      "required": true,
+      "default": "Galeria"
+    },
+    "nav_7": {
+      "type": "string",
+      "required": true,
+      "default": "Kontakt"
+    }
+  }
+}

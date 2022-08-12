@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_sekcja_dzielonas",
+  "info": {
+    "displayName": "Sekcja Dzielona - lista",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.lista"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_sekcja_ze_zdjeciems",
+  "info": {
+    "displayName": "Sekcja ze zdjęciem",
+    "icon": "carrot",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.lista-z-ikonami",
+      "required": false
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

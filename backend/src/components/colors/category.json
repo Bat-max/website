@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_colors_categories",
+  "info": {
+    "displayName": "category",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.colors"
+    }
+  }
+}
